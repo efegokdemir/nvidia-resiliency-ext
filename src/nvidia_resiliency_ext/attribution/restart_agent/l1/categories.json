@@ -154,7 +154,7 @@
     {
       "id": 26,
       "name": "CUDA OOM during checkpoint async-save",
-      "description": "CUDA OOM inside the async checkpoint-save path on a near-full GPU. As with cat 32, an unchanged workload will keep hitting the same allocation ceiling on retry, so product policy calls this a STOP.",
+      "description": "CUDA OOM inside the async checkpoint-save path on a near-full GPU. An unchanged workload will keep hitting the same allocation ceiling on retry, so product policy calls this a STOP.",
       "decision": "STOP"
     },
     {
