@@ -184,7 +184,7 @@
     {
       "id": 31,
       "name": "CPU OOM / Linux OOM killer",
-      "description": "Host memory exhausted (oom_kill). Old STOP rested on a same-job/config recurrence presumption, not on in-log evidence.",
+      "description": "Host memory exhausted: bare 'Killed' on one or more ranks corroborated by a slurmstepd 'Detected N oom_kill events ... Some of the step tasks have been OOM Killed' record (the oom_kill line often appears far below the 'Killed' lines). As with cat 32, host memory exhaustion is deterministic for the same job/config: an unchanged retry is expected to hit the same ceiling unless resources or configuration change, so product policy calls this a STOP.",
       "decision": "STOP"
     },
     {
